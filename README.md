@@ -69,3 +69,6 @@ If you have suggestions or questions, please feel free to
 open an issue or message us.
 
 <3 Your friends at KnpUniversity
+
+
+https://symfony.com/doc/current/bundles/FOSUserBundle/index.html

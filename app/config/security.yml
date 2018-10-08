@@ -29,8 +29,7 @@ security:
 
             remember_me:
                 secret:   '%secret%'
-                lifetime: 60 # 1 week in seconds
-                path:     / 
+                 
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
 
     access_control:

@@ -1,0 +1,4 @@
+registration:
+    flash:
+        user_created: 'Genio Estas Adentro!!! Ahora Aguarda 12 hs a la activacion'
+    

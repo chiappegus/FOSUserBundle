@@ -72,3 +72,26 @@ open an issue or message us.
 
 
 https://symfony.com/doc/current/bundles/FOSUserBundle/index.html
+
+
+
+C:\xampp\htdocs\borrar3_chiappegus\cookies\symfony-installer\FOSUserBundle>php b
+in/console doctrine:query:sql "SELECT * FROM `´user´`"
+
+
+
+User "gustavo" has been deactivated.
+
+C:\xampp\htdocs\borrar3_chiappegus\cookies\symfony-installer\FOSUserBundle>php b
+in/console fos:user:active
+
+
+  [Symfony\Component\Console\Exception\CommandNotFoundException]
+  Command "fos:user:active" is not defined.
+  Did you mean one of these?
+      fos:user:activate
+      fos:user:create
+      fos:user:demote
+      fos:user:deactivate
+      fos:user:change-password
+      fos:user:promote

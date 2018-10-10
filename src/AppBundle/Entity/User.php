@@ -19,6 +19,30 @@ class User extends BaseUser
     protected $id;
 
     /**
+     * @ORM\Column( type="string")
+     */
+    private $firstName;
+
+    /**
+     * Get firstName
+     * @return
+     */
+    public function getFirstName()
+    {
+        return $this->firstName;
+    }
+
+    /**
+     * Set firstName
+     * @return $this
+     */
+    public function setFirstName($firstName)
+    {
+        $this->firstName = $firstName;
+        return $this;
+    }
+
+    /**
      * Get id
      * @return
      */

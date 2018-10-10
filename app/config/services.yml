@@ -14,3 +14,9 @@ services:
             - { name: twig.extension }
         #arguments: ['@app.markdown_transformer']
         autowire: true
+    
+
+    app.form.registration:
+        class: AppBundle\Form\RegistrationFormType
+        tags:
+            - { name: form.type }

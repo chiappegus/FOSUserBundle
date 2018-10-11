@@ -61,4 +61,14 @@ class User extends BaseUser
         return $this;
     }
 
+    /**
+     * Set email
+     * @return $this
+     */
+    public function setEmail($email)
+    {
+        $this->setUsername($email);
+        return parent::setEmail($email);
+    }
+
 }

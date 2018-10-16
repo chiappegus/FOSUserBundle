@@ -27,3 +27,7 @@ services:
         autowire: true
         tags:
           - { name: kernel.event_subscriber }
+
+    app.security.login_form_authenticator:
+        class: AppBundle\Security\LoginFormAuthenticator
+        autowire: true
